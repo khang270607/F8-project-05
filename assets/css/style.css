@@ -8,6 +8,11 @@
     box-sizing: border-box;
 }
 
+html,
+body {
+    scroll-behavior: smooth;
+}
+
 html {
     font-size: 62.5%;
 }
@@ -1435,7 +1440,9 @@ h6 {
     margin-bottom: 24px;
 }
 
-.footer__item{margin-bottom: 12px;}
+.footer__item {
+    margin-bottom: 12px;
+}
 
 .footer__item-link {
     /* padding-bottom: 12px; */
@@ -1593,7 +1600,7 @@ h6 {
 
 
 /* alet */
-.alet{
+.alet {
     display: none;
     width: 30vw;
     position: fixed;
@@ -1608,12 +1615,12 @@ h6 {
     z-index: 5;
 }
 
-.alet__success{
+.alet__success {
     background: #d1e7dd;
     border-color: green;
 }
 
-.alet__error{
+.alet__error {
     background: #f8d7da;
     border-color: red;
 }
