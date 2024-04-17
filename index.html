@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Document</title>
+        <title> f8 project 5</title>
         <!-- link -->
         <link rel="stylesheet" href="./assets/css/reset.css" />
         <link rel="stylesheet" href="./assets/css/style.css" />
@@ -26,6 +26,80 @@
             crossorigin="anonymous"
             referrerpolicy="no-referrer"
         />
+        <!-- favicon -->
+        <link
+            rel="apple-touch-icon"
+            sizes="57x57"
+            href="./assets/favicon/apple-icon-57x57.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="60x60"
+            href="./assets/favicon/apple-icon-60x60.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="72x72"
+            href="./assets/favicon/apple-icon-72x72.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="76x76"
+            href="./assets/favicon/apple-icon-76x76.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="114x114"
+            href="./assets/favicon/apple-icon-114x114.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="120x120"
+            href="./assets/favicon/apple-icon-120x120.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="144x144"
+            href="./assets/favicon/apple-icon-144x144.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="152x152"
+            href="./assets/favicon/apple-icon-152x152.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="180x180"
+            href="./assets/favicon/apple-icon-180x180.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="192x192"
+            href="./assets/favicon/android-icon-192x192.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="32x32"
+            href="./assets/favicon/favicon-32x32.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="96x96"
+            href="./assets/favicon/favicon-96x96.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="16x16"
+            href="./assets/favicon/favicon-16x16.png"
+        />
+        <link rel="manifest" href="/manifest.json" />
+        <meta name="msapplication-TileColor" content="#ffffff" />
+        <meta name="msapplication-TileImage" content="/ms-icon-144x144.png" />
+        <meta name="theme-color" content="#ffffff" />
         <!-- animation -->
         <link
             href="https://unpkg.com/aos@2.3.1/dist/aos.css"
@@ -34,6 +108,8 @@
         <script src="./assets/js/jquery-3.7.1.min.js"></script>
     </head>
     <body>
+        <article class="alet__success alet">Bạn đã đăng nhập thành công</article>
+        <article class="alet__error alet">vui lòng nhập đúng định dạng email <br/></article>
         <header class="header">
             <div class="container">
                 <nav class="navbar">
@@ -82,11 +158,11 @@
                                 type="text"
                                 name="email"
                                 id="email1"
-                                class="hero__input-email"
+                                class="hero__input-email email"
                                 placeholder="Your email address"
                                 autocomplete="off"
                             />
-                            <button id="button1" class="hero__btn btn">
+                            <button id="button1" class="hero__btn btn button">
                                 Get Started
                             </button>
                         </div>
@@ -495,8 +571,12 @@
             <!-- client -->
             <section class="client">
                 <div class="container">
-                    <p data-aos="zoom-in" class="client__lable">Our Testimonial</p>
-                    <h2 data-aos="zoom-in" class="client__heading">What Clients Says</h2>
+                    <p data-aos="zoom-in" class="client__lable">
+                        Our Testimonial
+                    </p>
+                    <h2 data-aos="zoom-in" class="client__heading">
+                        What Clients Says
+                    </h2>
                     <p data-aos="zoom-in" class="client__decs">
                         Read what clients says about us and about our online
                         banking services that may inspire you
@@ -688,24 +768,44 @@
                     />
                     <article class="footer__list">
                         <h3 class="footer__heading">Sitemap</h3>
-                        <p class="footer__item">Home</p>
-                        <p class="footer__item">Abouts</p>
-                        <p class="footer__item">Growers</p>
-                        <p class="footer__item">Merchants</p>
-                        <p class="footer__item">Contact</p>
+                        <p class="footer__item">
+                            <a href="#!" class="footer__item-link">Home</a>
+                        </p>
+                        <p class="footer__item">
+                            <a href="#!" class="footer__item-link">Abouts</a>
+                        </p>
+                        <p class="footer__item">
+                            <a href="#!" class="footer__item-link">Growers</a>
+                        </p>
+                        <p class="footer__item">
+                            <a href="#!" class="footer__item-link">Merchants</a>
+                        </p>
+                        <p class="footer__item">
+                            <a href="#!" class="footer__item-link">Contact</a>
+                        </p>
                     </article>
                     <article class="footer__list">
                         <h3 class="footer__heading">Socials</h3>
-                        <p class="footer__item">Facebook</p>
-                        <p class="footer__item">Linkedin</p>
-                        <p class="footer__item">Instagram</p>
-                        <p class="footer__item">Twitter</p>
+                        <p class="footer__item">
+                            <a href="#!" class="footer__item-link">Facebook</a>
+                        </p>
+                        <p class="footer__item">
+                            <a href="#!" class="footer__item-link">Linkedin</a>
+                        </p>
+                        <p class="footer__item">
+                            <a href="#!" class="footer__item-link">Instagram</a>
+                        </p>
+                        <p class="footer__item">
+                            <a href="#!" class="footer__item-link">Twitter</a>
+                        </p>
                     </article>
                     <article class="footer__list">
                         <h3 class="footer__heading">Head Office</h3>
-                        <p class="footer__item">
-                            Xilliams Corner Wine © 2017. 1112 A Market St # Ste
-                            B22, Charlottesville, CA 45565
+                        <p>
+                            <a href="#!" class="footer__item-address">
+                                Xilliams Corner Wine © 2017. 1112 A Market St #
+                                Ste B22, Charlottesville, CA 45565
+                            </a>
                         </p>
                         <h3 class="footer__heading">News letter</h3>
                         <div class="group__email">
@@ -714,13 +814,13 @@
                                 name="email"
                                 id="email2"
                                 placeholder="Email address..."
-                                class="footer__input"
+                                class="footer__input email"
                                 autocomplete="off"
                             />
                             <button
                                 type="submit"
                                 id="button2"
-                                class="footer__btn btn"
+                                class="footer__btn btn button"
                             >
                                 Subscribe
                             </button>
@@ -728,8 +828,16 @@
                     </article>
                 </div>
                 <div class="footer__sub-info">
-                    <p class="footer__info">email@gmail.com</p>
-                    <p class="footer__info">(123) 456-7890</p>
+                    <p>
+                        <a href="mailto:email@gmail.com" class="footer__info"
+                            >email@gmail.com</a
+                        >
+                    </p>
+                    <p>
+                        <a href="tel:1234567890" class="footer__info"
+                            >(123) 456-7890</a
+                        >
+                    </p>
                 </div>
             </div>
             <div class="footer__license">
@@ -737,16 +845,17 @@
             </div>
         </footer>
         <!-- modal -->
-        <article class="modal" id="modal" data-aos="fade-down">
+        <!-- <article class="modal" id="modal" data-aos="fade-down">
             <div class="modal__heading">
                 <h3 class="modal__title"></h3>
                 <i class="fa-solid fa-xmark closeModal"></i>
             </div>
-            <p class="modal__body"><p class="modal__showEmail"></p></p>
+            <p class="modal__body"></p>
+            <p class="modal__showEmail"></p>
             <div class="modal__close">
                 <button class="modal__button closeModal">Close</button>
             </div>
-        </article>
+        </article> -->
         <!-- js -->
         <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
         <script>

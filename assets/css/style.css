@@ -1260,6 +1260,7 @@ h6 {
     border: 1px solid #DFE2E8;
     padding: 28px;
     transition: .3s;
+    cursor: pointer;
 }
 
 .blog__item:hover {
@@ -1434,17 +1435,25 @@ h6 {
     margin-bottom: 24px;
 }
 
-.footer__item {
-    margin-bottom: 12px;
+.footer__item{margin-bottom: 12px;}
+
+.footer__item-link {
+    /* padding-bottom: 12px; */
     color: #6A6E78;
     font-size: 1.8rem;
     line-height: 1.67;
     /* 166.667% */
 }
 
-.footer__list:nth-child(4) .footer__item {
+.footer__item-address {
+    display: inline-block;
     width: 371px;
     margin-bottom: 48px;
+    color: #6A6E78;
+    font-size: 1.8rem;
+    line-height: 1.67;
+    white-space: wrap;
+    /* 166.667% */
 }
 
 .group__email {
@@ -1478,6 +1487,7 @@ h6 {
 }
 
 .footer__sub-info {
+    margin-top: 54px;
     display: flex;
 }
 
@@ -1579,4 +1589,31 @@ h6 {
     color: #1106af;
     padding: 15px;
     font-size: 2rem;
+}
+
+
+/* alet */
+.alet{
+    display: none;
+    width: 30vw;
+    position: fixed;
+    top: 18px;
+    right: 0;
+    border: 1px solid;
+    color: #000;
+    padding: 20px;
+    border-radius: 8px;
+    font-size: 1.8rem;
+    font-weight: 400;
+    z-index: 5;
+}
+
+.alet__success{
+    background: #d1e7dd;
+    border-color: green;
+}
+
+.alet__error{
+    background: #f8d7da;
+    border-color: red;
 }
